@@ -17,9 +17,10 @@
 }
 
 .menuBox {
-  background-color: #d3d3f3;
+  background-color: #d7d7d7;
   border: 1px solid black;
   border-radius: 10px;
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .menuTitle {
@@ -34,7 +35,7 @@
 
 .menuDet {
   clear: right;
-  padding: 8px;
+  padding: 10px 30px;
 }
 
 .row {
@@ -51,11 +52,11 @@
 }
 
 #sushi {
-  background-color: #f9b3ae;
+  background-color: #faf3b6;
 }
 
 /** ====== Desktop devices only ====== **/
-@media (min-width: 992px) {
+@media only screen and (min-width: 991.5px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     margin: 10px;
@@ -98,7 +99,7 @@
   }
 }
 /** ====== Tablet devices only ====== **/
-@media (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 767.5px) and (max-width: 991.5px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     margin: 10px;
@@ -141,7 +142,7 @@
   }
 }
 /** ====== Mobile devices only ====== **/
-@media (max-width: 767px) {
+@media only screen and (max-width: 767.5px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
     margin: 10px;
